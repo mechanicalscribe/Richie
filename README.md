@@ -16,24 +16,4 @@ Many thanks to the [great tutorial](https://www.smashingmagazine.com/2018/03/web
 
 ### Piano keys
 
-[Single piano octave SVG, Wikimedia Commons](https://commons.wikimedia.org/wiki/File:PianoKeyboard.svg)
-
-> Copyright (c)  2005 Lauri Kaila.
-
-> Permission is granted to copy, distribute and/or modify this document
- under the terms of the GNU Free Documentation License, Version 1.2
- or any later version published by the Free Software Foundation;
- with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
- A copy of the license is included in the section entitled "GNU
- Free Documentation License".
- 
-> Intended to create a keyboard where key widths are
- accurately in position. 
- 
-> See http://www.mathpages.com/home/kmath043.htm for the math.
- 
-> This keyboard has following properties (x=octave width).
- 1. All white keys have equal width in front (W=x/7).
- 2. All black keys have equal width (B=x/12).
- 3. The narrow part of white keys C, D and E is W - B*2/3
- 4. The narrow part of white keys F, G, A, and B is W - B*3/4
+The keyboard represents a reasonably accurate depiction of key position. I took some guidance from the [Wikimedia Commons single piano octave SVG](https://commons.wikimedia.org/wiki/File:PianoKeyboard.svg), which drew from [MathPages.com](https://www.mathpages.com/home/kmath043.htm).
