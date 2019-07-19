@@ -1,0 +1,26 @@
+{
+  "name": "Richie",
+  "version": "0.0.1",
+  "description": "Visualize a MIDI output in real-time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mechanicalscribe/Richie.git"
+  },
+  "keywords": [
+    "piano",
+    "MIDI"
+  ],
+  "author": "Chris Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mechanicalscribe/Richie/issues"
+  },
+  "homepage": "https://github.com/mechanicalscribe/Richie#readme",
+  "dependencies": {
+    "d3": "^5.9.7"
+  }
+}

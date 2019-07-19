@@ -1,0 +1,730 @@
+[
+  {
+    "names": [
+      "E",
+      "Dx",
+      "Fb"
+    ],
+    "color": "white",
+    "index": 64,
+    "register": 4,
+    "id": "E4",
+    "x": 575,
+    "status": "on",
+    "timestamp": 5811.979999998584,
+    "velocity": 57,
+    "start": 5811.979999998584,
+    "end": 7918.610000000626,
+    "duration": 2106.630000002042
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 37,
+    "register": 2,
+    "id": "Cs2",
+    "x": 221.333333,
+    "status": "on",
+    "timestamp": 5807.990000001155,
+    "velocity": 53,
+    "start": 5807.990000001155,
+    "end": 7942.340000001423,
+    "duration": 2134.3500000002678
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 73,
+    "register": 5,
+    "id": "Cs5",
+    "x": 704.333333,
+    "status": "on",
+    "timestamp": 5805.954999999813,
+    "velocity": 67,
+    "start": 5805.954999999813,
+    "end": 7976.5149999984715,
+    "duration": 2170.559999998659
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 5802.400000000489,
+    "velocity": 65,
+    "start": 5802.400000000489,
+    "end": 7979.224999999133,
+    "duration": 2176.8249999986438
+  },
+  {
+    "names": [
+      "B",
+      "Ax",
+      "Cb"
+    ],
+    "color": "white",
+    "index": 71,
+    "register": 4,
+    "id": "B4",
+    "x": 667,
+    "status": "on",
+    "timestamp": 8876.325000001088,
+    "velocity": 49,
+    "start": 8876.325000001088,
+    "end": 9613.040000000183,
+    "duration": 736.7149999990943
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 49,
+    "register": 3,
+    "id": "Cs3",
+    "x": 382.333333,
+    "status": "on",
+    "timestamp": 8875.284999998257,
+    "velocity": 41,
+    "start": 8875.284999998257,
+    "end": 9735.570000000735,
+    "duration": 860.2850000024773
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 8868.894999999611,
+    "velocity": 55,
+    "start": 8868.894999999611,
+    "end": 9748.20499999987,
+    "duration": 879.3100000002596
+  },
+  {
+    "names": [
+      "A",
+      "Gx",
+      "Bbb"
+    ],
+    "color": "white",
+    "index": 69,
+    "register": 4,
+    "id": "A4",
+    "x": 644,
+    "status": "on",
+    "timestamp": 9670.73000000164,
+    "velocity": 51,
+    "start": 9670.73000000164,
+    "end": 11276.99500000017,
+    "duration": 1606.2649999985297
+  },
+  {
+    "names": [
+      "Fs",
+      "Gb"
+    ],
+    "color": "black",
+    "index": 66,
+    "register": 4,
+    "id": "Fs4",
+    "x": 611.25,
+    "status": "on",
+    "timestamp": 9678.745000001072,
+    "velocity": 44,
+    "start": 9678.745000001072,
+    "end": 11307.43000000075,
+    "duration": 1628.6849999996775
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 61,
+    "register": 4,
+    "id": "Cs4",
+    "x": 543.333333,
+    "status": "on",
+    "timestamp": 8882.480000000214,
+    "velocity": 48,
+    "start": 8882.480000000214,
+    "end": 11328.365000001213,
+    "duration": 2445.885000000999
+  },
+  {
+    "names": [
+      "Fs",
+      "Gb"
+    ],
+    "color": "black",
+    "index": 54,
+    "register": 3,
+    "id": "Fs3",
+    "x": 450.25,
+    "status": "on",
+    "timestamp": 9638.719999999012,
+    "velocity": 43,
+    "start": 9638.719999999012,
+    "end": 11351.829999999609,
+    "duration": 1713.1100000005972
+  },
+  {
+    "names": [
+      "E",
+      "Dx",
+      "Fb"
+    ],
+    "color": "white",
+    "index": 64,
+    "register": 4,
+    "id": "E4",
+    "x": 575,
+    "status": "on",
+    "timestamp": 12211.67499999865,
+    "velocity": 46,
+    "start": 12211.67499999865,
+    "end": 14021.704999999201,
+    "duration": 1810.0300000005518
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 61,
+    "register": 4,
+    "id": "Cs4",
+    "x": 543.333333,
+    "status": "on",
+    "timestamp": 12215.735000001587,
+    "velocity": 39,
+    "start": 12215.735000001587,
+    "end": 14090.485000000626,
+    "duration": 1874.7499999990396
+  },
+  {
+    "names": [
+      "G",
+      "Fx",
+      "Abb"
+    ],
+    "color": "white",
+    "index": 67,
+    "register": 4,
+    "id": "G4",
+    "x": 621,
+    "status": "on",
+    "timestamp": 13060.265000000072,
+    "velocity": 47,
+    "start": 13060.265000000072,
+    "end": 14167.269999998098,
+    "duration": 1107.0049999980256
+  },
+  {
+    "names": [
+      "A",
+      "Gx",
+      "Bbb"
+    ],
+    "color": "white",
+    "index": 45,
+    "register": 2,
+    "id": "A2",
+    "x": 322,
+    "status": "on",
+    "timestamp": 13089.915000000474,
+    "velocity": 36,
+    "start": 13089.915000000474,
+    "end": 14171.659999999974,
+    "duration": 1081.7449999995006
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 12147.320000000036,
+    "velocity": 53,
+    "start": 12147.320000000036,
+    "end": 14229.970000000321,
+    "duration": 2082.650000000285
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 49,
+    "register": 3,
+    "id": "Cs3",
+    "x": 382.333333,
+    "status": "on",
+    "timestamp": 12187.535000000935,
+    "velocity": 43,
+    "start": 12187.535000000935,
+    "end": 14302.865000001475,
+    "duration": 2115.33000000054
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 15163.519999998243,
+    "velocity": 46,
+    "start": 15163.519999998243,
+    "end": 18057.75999999969,
+    "duration": 2894.240000001446
+  },
+  {
+    "names": [
+      "C",
+      "Bs",
+      "Dbb"
+    ],
+    "color": "white",
+    "index": 60,
+    "register": 4,
+    "id": "C4",
+    "x": 529,
+    "status": "on",
+    "timestamp": 15158.479999998235,
+    "velocity": 34,
+    "start": 15158.479999998235,
+    "end": 18066.17499999993,
+    "duration": 2907.695000001695
+  },
+  {
+    "names": [
+      "Ds",
+      "Eb"
+    ],
+    "color": "black",
+    "index": 63,
+    "register": 4,
+    "id": "Ds4",
+    "x": 570.666666,
+    "status": "on",
+    "timestamp": 15155.63000000111,
+    "velocity": 46,
+    "start": 15155.63000000111,
+    "end": 18105.514999999286,
+    "duration": 2949.8849999981758
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 44,
+    "register": 2,
+    "id": "Gs2",
+    "x": 319.25,
+    "status": "on",
+    "timestamp": 15153.709999998682,
+    "velocity": 44,
+    "start": 15153.709999998682,
+    "end": 18373.129999999946,
+    "duration": 3219.4200000012643
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 73,
+    "register": 5,
+    "id": "Cs5",
+    "x": 704.333333,
+    "status": "on",
+    "timestamp": 21585.6300000014,
+    "velocity": 43,
+    "start": 21585.6300000014,
+    "end": 23236.44499999864,
+    "duration": 1650.8149999972375
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 37,
+    "register": 2,
+    "id": "Cs2",
+    "x": 221.333333,
+    "status": "on",
+    "timestamp": 21606.274999998277,
+    "velocity": 34,
+    "start": 21606.274999998277,
+    "end": 23242.48499999885,
+    "duration": 1636.210000000574
+  },
+  {
+    "names": [
+      "E",
+      "Dx",
+      "Fb"
+    ],
+    "color": "white",
+    "index": 64,
+    "register": 4,
+    "id": "E4",
+    "x": 575,
+    "status": "on",
+    "timestamp": 21593.15499999866,
+    "velocity": 33,
+    "start": 21593.15499999866,
+    "end": 23255.550000001676,
+    "duration": 1662.3950000030163
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 21600.18499999933,
+    "velocity": 45,
+    "start": 21600.18499999933,
+    "end": 23256.030000000464,
+    "duration": 1655.8450000011362
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 24219.434999999066,
+    "velocity": 41,
+    "start": 24219.434999999066,
+    "end": 24829.734999999346,
+    "duration": 610.3000000002794
+  },
+  {
+    "names": [
+      "B",
+      "Ax",
+      "Cb"
+    ],
+    "color": "white",
+    "index": 71,
+    "register": 4,
+    "id": "B4",
+    "x": 667,
+    "status": "on",
+    "timestamp": 24190.565000000788,
+    "velocity": 51,
+    "start": 24190.565000000788,
+    "end": 24966.205000000627,
+    "duration": 775.6399999998393
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 49,
+    "register": 3,
+    "id": "Cs3",
+    "x": 382.333333,
+    "status": "on",
+    "timestamp": 24206.450000001496,
+    "velocity": 41,
+    "start": 24206.450000001496,
+    "end": 25133.36999999956,
+    "duration": 926.9199999980628
+  },
+  {
+    "names": [
+      "A",
+      "Gx",
+      "Bbb"
+    ],
+    "color": "white",
+    "index": 69,
+    "register": 4,
+    "id": "A4",
+    "x": 644,
+    "status": "on",
+    "timestamp": 25266.32999999856,
+    "velocity": 50,
+    "start": 25266.32999999856,
+    "end": 26961.5249999988,
+    "duration": 1695.1950000002398
+  },
+  {
+    "names": [
+      "Fs",
+      "Gb"
+    ],
+    "color": "black",
+    "index": 66,
+    "register": 4,
+    "id": "Fs4",
+    "x": 611.25,
+    "status": "on",
+    "timestamp": 25286.299999999756,
+    "velocity": 47,
+    "start": 25286.299999999756,
+    "end": 26976.245000001654,
+    "duration": 1689.9450000018987
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 61,
+    "register": 4,
+    "id": "Cs4",
+    "x": 543.333333,
+    "status": "on",
+    "timestamp": 24224.33000000092,
+    "velocity": 39,
+    "start": 24224.33000000092,
+    "end": 26984.004999998433,
+    "duration": 2759.6749999975145
+  },
+  {
+    "names": [
+      "Fs",
+      "Gb"
+    ],
+    "color": "black",
+    "index": 54,
+    "register": 3,
+    "id": "Fs3",
+    "x": 450.25,
+    "status": "on",
+    "timestamp": 25274.130000001605,
+    "velocity": 31,
+    "start": 25274.130000001605,
+    "end": 27010.41500000065,
+    "duration": 1736.284999999043
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 27710.964999998396,
+    "velocity": 45,
+    "start": 27710.964999998396,
+    "end": 28918.760000000475,
+    "duration": 1207.7950000020792
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 61,
+    "register": 4,
+    "id": "Cs4",
+    "x": 543.333333,
+    "status": "on",
+    "timestamp": 27690.959999999905,
+    "velocity": 31,
+    "start": 27690.959999999905,
+    "end": 29955.269999998563,
+    "duration": 2264.309999998659
+  },
+  {
+    "names": [
+      "E",
+      "Dx",
+      "Fb"
+    ],
+    "color": "white",
+    "index": 64,
+    "register": 4,
+    "id": "E4",
+    "x": 575,
+    "status": "on",
+    "timestamp": 27714.130000000296,
+    "velocity": 39,
+    "start": 27714.130000000296,
+    "end": 29967.35500000068,
+    "duration": 2253.225000000384
+  },
+  {
+    "names": [
+      "G",
+      "Fx",
+      "Abb"
+    ],
+    "color": "white",
+    "index": 67,
+    "register": 4,
+    "id": "G4",
+    "x": 621,
+    "status": "on",
+    "timestamp": 28796.289999998407,
+    "velocity": 38,
+    "start": 28796.289999998407,
+    "end": 30003.594999998313,
+    "duration": 1207.3049999999057
+  },
+  {
+    "names": [
+      "A",
+      "Gx",
+      "Bbb"
+    ],
+    "color": "white",
+    "index": 45,
+    "register": 2,
+    "id": "A2",
+    "x": 322,
+    "status": "on",
+    "timestamp": 28834.04000000155,
+    "velocity": 34,
+    "start": 28834.04000000155,
+    "end": 30019.870000000083,
+    "duration": 1185.829999998532
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 49,
+    "register": 3,
+    "id": "Cs3",
+    "x": 382.333333,
+    "status": "on",
+    "timestamp": 27693.72999999905,
+    "velocity": 37,
+    "start": 27693.72999999905,
+    "end": 30110.459999999875,
+    "duration": 2416.7300000008254
+  },
+  {
+    "names": [
+      "C",
+      "Bs",
+      "Dbb"
+    ],
+    "color": "white",
+    "index": 60,
+    "register": 4,
+    "id": "C4",
+    "x": 529,
+    "status": "on",
+    "timestamp": 31012.85999999891,
+    "velocity": 21,
+    "start": 31012.85999999891,
+    "end": 36358.814999999595,
+    "duration": 5345.955000000686
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 31004.229999998643,
+    "velocity": 41,
+    "start": 31004.229999998643,
+    "end": 36395.5449999994,
+    "duration": 5391.315000000759
+  },
+  {
+    "names": [
+      "Ds",
+      "Eb"
+    ],
+    "color": "black",
+    "index": 63,
+    "register": 4,
+    "id": "Ds4",
+    "x": 570.666666,
+    "status": "on",
+    "timestamp": 31008.859999998094,
+    "velocity": 30,
+    "start": 31008.859999998094,
+    "end": 36406.630000001314,
+    "duration": 5397.77000000322
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 44,
+    "register": 2,
+    "id": "Gs2",
+    "x": 319.25,
+    "status": "on",
+    "timestamp": 31013.899999998102,
+    "velocity": 34,
+    "start": 31013.899999998102,
+    "end": 36410.609999999,
+    "duration": 5396.710000000894
+  }
+]

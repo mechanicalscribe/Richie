@@ -1,0 +1,1164 @@
+[
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 5802.400000000489,
+    "velocity": 65
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 73,
+    "register": 5,
+    "id": "Cs5",
+    "x": 704.333333,
+    "status": "on",
+    "timestamp": 5805.954999999813,
+    "velocity": 67
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 37,
+    "register": 2,
+    "id": "Cs2",
+    "x": 221.333333,
+    "status": "on",
+    "timestamp": 5807.990000001155,
+    "velocity": 53
+  },
+  {
+    "names": [
+      "E",
+      "Dx",
+      "Fb"
+    ],
+    "color": "white",
+    "index": 64,
+    "register": 4,
+    "id": "E4",
+    "x": 575,
+    "status": "on",
+    "timestamp": 5811.979999998584,
+    "velocity": 57
+  },
+  {
+    "names": [
+      "E",
+      "Dx",
+      "Fb"
+    ],
+    "color": "white",
+    "index": 64,
+    "register": 4,
+    "id": "E4",
+    "x": 575,
+    "status": "off",
+    "timestamp": 7918.610000000626
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 37,
+    "register": 2,
+    "id": "Cs2",
+    "x": 221.333333,
+    "status": "off",
+    "timestamp": 7942.340000001423
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 73,
+    "register": 5,
+    "id": "Cs5",
+    "x": 704.333333,
+    "status": "off",
+    "timestamp": 7976.5149999984715
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "off",
+    "timestamp": 7979.224999999133
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 8868.894999999611,
+    "velocity": 55
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 49,
+    "register": 3,
+    "id": "Cs3",
+    "x": 382.333333,
+    "status": "on",
+    "timestamp": 8875.284999998257,
+    "velocity": 41
+  },
+  {
+    "names": [
+      "B",
+      "Ax",
+      "Cb"
+    ],
+    "color": "white",
+    "index": 71,
+    "register": 4,
+    "id": "B4",
+    "x": 667,
+    "status": "on",
+    "timestamp": 8876.325000001088,
+    "velocity": 49
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 61,
+    "register": 4,
+    "id": "Cs4",
+    "x": 543.333333,
+    "status": "on",
+    "timestamp": 8882.480000000214,
+    "velocity": 48
+  },
+  {
+    "names": [
+      "B",
+      "Ax",
+      "Cb"
+    ],
+    "color": "white",
+    "index": 71,
+    "register": 4,
+    "id": "B4",
+    "x": 667,
+    "status": "off",
+    "timestamp": 9613.040000000183
+  },
+  {
+    "names": [
+      "Fs",
+      "Gb"
+    ],
+    "color": "black",
+    "index": 54,
+    "register": 3,
+    "id": "Fs3",
+    "x": 450.25,
+    "status": "on",
+    "timestamp": 9638.719999999012,
+    "velocity": 43
+  },
+  {
+    "names": [
+      "A",
+      "Gx",
+      "Bbb"
+    ],
+    "color": "white",
+    "index": 69,
+    "register": 4,
+    "id": "A4",
+    "x": 644,
+    "status": "on",
+    "timestamp": 9670.73000000164,
+    "velocity": 51
+  },
+  {
+    "names": [
+      "Fs",
+      "Gb"
+    ],
+    "color": "black",
+    "index": 66,
+    "register": 4,
+    "id": "Fs4",
+    "x": 611.25,
+    "status": "on",
+    "timestamp": 9678.745000001072,
+    "velocity": 44
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 49,
+    "register": 3,
+    "id": "Cs3",
+    "x": 382.333333,
+    "status": "off",
+    "timestamp": 9735.570000000735
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "off",
+    "timestamp": 9748.20499999987
+  },
+  {
+    "names": [
+      "A",
+      "Gx",
+      "Bbb"
+    ],
+    "color": "white",
+    "index": 69,
+    "register": 4,
+    "id": "A4",
+    "x": 644,
+    "status": "off",
+    "timestamp": 11276.99500000017
+  },
+  {
+    "names": [
+      "Fs",
+      "Gb"
+    ],
+    "color": "black",
+    "index": 66,
+    "register": 4,
+    "id": "Fs4",
+    "x": 611.25,
+    "status": "off",
+    "timestamp": 11307.43000000075
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 61,
+    "register": 4,
+    "id": "Cs4",
+    "x": 543.333333,
+    "status": "off",
+    "timestamp": 11328.365000001213
+  },
+  {
+    "names": [
+      "Fs",
+      "Gb"
+    ],
+    "color": "black",
+    "index": 54,
+    "register": 3,
+    "id": "Fs3",
+    "x": 450.25,
+    "status": "off",
+    "timestamp": 11351.829999999609
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 12147.320000000036,
+    "velocity": 53
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 49,
+    "register": 3,
+    "id": "Cs3",
+    "x": 382.333333,
+    "status": "on",
+    "timestamp": 12187.535000000935,
+    "velocity": 43
+  },
+  {
+    "names": [
+      "E",
+      "Dx",
+      "Fb"
+    ],
+    "color": "white",
+    "index": 64,
+    "register": 4,
+    "id": "E4",
+    "x": 575,
+    "status": "on",
+    "timestamp": 12211.67499999865,
+    "velocity": 46
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 61,
+    "register": 4,
+    "id": "Cs4",
+    "x": 543.333333,
+    "status": "on",
+    "timestamp": 12215.735000001587,
+    "velocity": 39
+  },
+  {
+    "names": [
+      "G",
+      "Fx",
+      "Abb"
+    ],
+    "color": "white",
+    "index": 67,
+    "register": 4,
+    "id": "G4",
+    "x": 621,
+    "status": "on",
+    "timestamp": 13060.265000000072,
+    "velocity": 47
+  },
+  {
+    "names": [
+      "A",
+      "Gx",
+      "Bbb"
+    ],
+    "color": "white",
+    "index": 45,
+    "register": 2,
+    "id": "A2",
+    "x": 322,
+    "status": "on",
+    "timestamp": 13089.915000000474,
+    "velocity": 36
+  },
+  {
+    "names": [
+      "E",
+      "Dx",
+      "Fb"
+    ],
+    "color": "white",
+    "index": 64,
+    "register": 4,
+    "id": "E4",
+    "x": 575,
+    "status": "off",
+    "timestamp": 14021.704999999201
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 61,
+    "register": 4,
+    "id": "Cs4",
+    "x": 543.333333,
+    "status": "off",
+    "timestamp": 14090.485000000626
+  },
+  {
+    "names": [
+      "G",
+      "Fx",
+      "Abb"
+    ],
+    "color": "white",
+    "index": 67,
+    "register": 4,
+    "id": "G4",
+    "x": 621,
+    "status": "off",
+    "timestamp": 14167.269999998098
+  },
+  {
+    "names": [
+      "A",
+      "Gx",
+      "Bbb"
+    ],
+    "color": "white",
+    "index": 45,
+    "register": 2,
+    "id": "A2",
+    "x": 322,
+    "status": "off",
+    "timestamp": 14171.659999999974
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "off",
+    "timestamp": 14229.970000000321
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 49,
+    "register": 3,
+    "id": "Cs3",
+    "x": 382.333333,
+    "status": "off",
+    "timestamp": 14302.865000001475
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 44,
+    "register": 2,
+    "id": "Gs2",
+    "x": 319.25,
+    "status": "on",
+    "timestamp": 15153.709999998682,
+    "velocity": 44
+  },
+  {
+    "names": [
+      "Ds",
+      "Eb"
+    ],
+    "color": "black",
+    "index": 63,
+    "register": 4,
+    "id": "Ds4",
+    "x": 570.666666,
+    "status": "on",
+    "timestamp": 15155.63000000111,
+    "velocity": 46
+  },
+  {
+    "names": [
+      "C",
+      "Bs",
+      "Dbb"
+    ],
+    "color": "white",
+    "index": 60,
+    "register": 4,
+    "id": "C4",
+    "x": 529,
+    "status": "on",
+    "timestamp": 15158.479999998235,
+    "velocity": 34
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 15163.519999998243,
+    "velocity": 46
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "off",
+    "timestamp": 18057.75999999969
+  },
+  {
+    "names": [
+      "C",
+      "Bs",
+      "Dbb"
+    ],
+    "color": "white",
+    "index": 60,
+    "register": 4,
+    "id": "C4",
+    "x": 529,
+    "status": "off",
+    "timestamp": 18066.17499999993
+  },
+  {
+    "names": [
+      "Ds",
+      "Eb"
+    ],
+    "color": "black",
+    "index": 63,
+    "register": 4,
+    "id": "Ds4",
+    "x": 570.666666,
+    "status": "off",
+    "timestamp": 18105.514999999286
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 44,
+    "register": 2,
+    "id": "Gs2",
+    "x": 319.25,
+    "status": "off",
+    "timestamp": 18373.129999999946
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 73,
+    "register": 5,
+    "id": "Cs5",
+    "x": 704.333333,
+    "status": "on",
+    "timestamp": 21585.6300000014,
+    "velocity": 43
+  },
+  {
+    "names": [
+      "E",
+      "Dx",
+      "Fb"
+    ],
+    "color": "white",
+    "index": 64,
+    "register": 4,
+    "id": "E4",
+    "x": 575,
+    "status": "on",
+    "timestamp": 21593.15499999866,
+    "velocity": 33
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 21600.18499999933,
+    "velocity": 45
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 37,
+    "register": 2,
+    "id": "Cs2",
+    "x": 221.333333,
+    "status": "on",
+    "timestamp": 21606.274999998277,
+    "velocity": 34
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 73,
+    "register": 5,
+    "id": "Cs5",
+    "x": 704.333333,
+    "status": "off",
+    "timestamp": 23236.44499999864
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 37,
+    "register": 2,
+    "id": "Cs2",
+    "x": 221.333333,
+    "status": "off",
+    "timestamp": 23242.48499999885
+  },
+  {
+    "names": [
+      "E",
+      "Dx",
+      "Fb"
+    ],
+    "color": "white",
+    "index": 64,
+    "register": 4,
+    "id": "E4",
+    "x": 575,
+    "status": "off",
+    "timestamp": 23255.550000001676
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "off",
+    "timestamp": 23256.030000000464
+  },
+  {
+    "names": [
+      "B",
+      "Ax",
+      "Cb"
+    ],
+    "color": "white",
+    "index": 71,
+    "register": 4,
+    "id": "B4",
+    "x": 667,
+    "status": "on",
+    "timestamp": 24190.565000000788,
+    "velocity": 51
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 49,
+    "register": 3,
+    "id": "Cs3",
+    "x": 382.333333,
+    "status": "on",
+    "timestamp": 24206.450000001496,
+    "velocity": 41
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 24219.434999999066,
+    "velocity": 41
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 61,
+    "register": 4,
+    "id": "Cs4",
+    "x": 543.333333,
+    "status": "on",
+    "timestamp": 24224.33000000092,
+    "velocity": 39
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "off",
+    "timestamp": 24829.734999999346
+  },
+  {
+    "names": [
+      "B",
+      "Ax",
+      "Cb"
+    ],
+    "color": "white",
+    "index": 71,
+    "register": 4,
+    "id": "B4",
+    "x": 667,
+    "status": "off",
+    "timestamp": 24966.205000000627
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 49,
+    "register": 3,
+    "id": "Cs3",
+    "x": 382.333333,
+    "status": "off",
+    "timestamp": 25133.36999999956
+  },
+  {
+    "names": [
+      "A",
+      "Gx",
+      "Bbb"
+    ],
+    "color": "white",
+    "index": 69,
+    "register": 4,
+    "id": "A4",
+    "x": 644,
+    "status": "on",
+    "timestamp": 25266.32999999856,
+    "velocity": 50
+  },
+  {
+    "names": [
+      "Fs",
+      "Gb"
+    ],
+    "color": "black",
+    "index": 54,
+    "register": 3,
+    "id": "Fs3",
+    "x": 450.25,
+    "status": "on",
+    "timestamp": 25274.130000001605,
+    "velocity": 31
+  },
+  {
+    "names": [
+      "Fs",
+      "Gb"
+    ],
+    "color": "black",
+    "index": 66,
+    "register": 4,
+    "id": "Fs4",
+    "x": 611.25,
+    "status": "on",
+    "timestamp": 25286.299999999756,
+    "velocity": 47
+  },
+  {
+    "names": [
+      "A",
+      "Gx",
+      "Bbb"
+    ],
+    "color": "white",
+    "index": 69,
+    "register": 4,
+    "id": "A4",
+    "x": 644,
+    "status": "off",
+    "timestamp": 26961.5249999988
+  },
+  {
+    "names": [
+      "Fs",
+      "Gb"
+    ],
+    "color": "black",
+    "index": 66,
+    "register": 4,
+    "id": "Fs4",
+    "x": 611.25,
+    "status": "off",
+    "timestamp": 26976.245000001654
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 61,
+    "register": 4,
+    "id": "Cs4",
+    "x": 543.333333,
+    "status": "off",
+    "timestamp": 26984.004999998433
+  },
+  {
+    "names": [
+      "Fs",
+      "Gb"
+    ],
+    "color": "black",
+    "index": 54,
+    "register": 3,
+    "id": "Fs3",
+    "x": 450.25,
+    "status": "off",
+    "timestamp": 27010.41500000065
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 61,
+    "register": 4,
+    "id": "Cs4",
+    "x": 543.333333,
+    "status": "on",
+    "timestamp": 27690.959999999905,
+    "velocity": 31
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 49,
+    "register": 3,
+    "id": "Cs3",
+    "x": 382.333333,
+    "status": "on",
+    "timestamp": 27693.72999999905,
+    "velocity": 37
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 27710.964999998396,
+    "velocity": 45
+  },
+  {
+    "names": [
+      "E",
+      "Dx",
+      "Fb"
+    ],
+    "color": "white",
+    "index": 64,
+    "register": 4,
+    "id": "E4",
+    "x": 575,
+    "status": "on",
+    "timestamp": 27714.130000000296,
+    "velocity": 39
+  },
+  {
+    "names": [
+      "G",
+      "Fx",
+      "Abb"
+    ],
+    "color": "white",
+    "index": 67,
+    "register": 4,
+    "id": "G4",
+    "x": 621,
+    "status": "on",
+    "timestamp": 28796.289999998407,
+    "velocity": 38
+  },
+  {
+    "names": [
+      "A",
+      "Gx",
+      "Bbb"
+    ],
+    "color": "white",
+    "index": 45,
+    "register": 2,
+    "id": "A2",
+    "x": 322,
+    "status": "on",
+    "timestamp": 28834.04000000155,
+    "velocity": 34
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "off",
+    "timestamp": 28918.760000000475
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 61,
+    "register": 4,
+    "id": "Cs4",
+    "x": 543.333333,
+    "status": "off",
+    "timestamp": 29955.269999998563
+  },
+  {
+    "names": [
+      "E",
+      "Dx",
+      "Fb"
+    ],
+    "color": "white",
+    "index": 64,
+    "register": 4,
+    "id": "E4",
+    "x": 575,
+    "status": "off",
+    "timestamp": 29967.35500000068
+  },
+  {
+    "names": [
+      "G",
+      "Fx",
+      "Abb"
+    ],
+    "color": "white",
+    "index": 67,
+    "register": 4,
+    "id": "G4",
+    "x": 621,
+    "status": "off",
+    "timestamp": 30003.594999998313
+  },
+  {
+    "names": [
+      "A",
+      "Gx",
+      "Bbb"
+    ],
+    "color": "white",
+    "index": 45,
+    "register": 2,
+    "id": "A2",
+    "x": 322,
+    "status": "off",
+    "timestamp": 30019.870000000083
+  },
+  {
+    "names": [
+      "Cs",
+      "Db"
+    ],
+    "color": "black",
+    "index": 49,
+    "register": 3,
+    "id": "Cs3",
+    "x": 382.333333,
+    "status": "off",
+    "timestamp": 30110.459999999875
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "on",
+    "timestamp": 31004.229999998643,
+    "velocity": 41
+  },
+  {
+    "names": [
+      "Ds",
+      "Eb"
+    ],
+    "color": "black",
+    "index": 63,
+    "register": 4,
+    "id": "Ds4",
+    "x": 570.666666,
+    "status": "on",
+    "timestamp": 31008.859999998094,
+    "velocity": 30
+  },
+  {
+    "names": [
+      "C",
+      "Bs",
+      "Dbb"
+    ],
+    "color": "white",
+    "index": 60,
+    "register": 4,
+    "id": "C4",
+    "x": 529,
+    "status": "on",
+    "timestamp": 31012.85999999891,
+    "velocity": 21
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 44,
+    "register": 2,
+    "id": "Gs2",
+    "x": 319.25,
+    "status": "on",
+    "timestamp": 31013.899999998102,
+    "velocity": 34
+  },
+  {
+    "names": [
+      "C",
+      "Bs",
+      "Dbb"
+    ],
+    "color": "white",
+    "index": 60,
+    "register": 4,
+    "id": "C4",
+    "x": 529,
+    "status": "off",
+    "timestamp": 36358.814999999595
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 68,
+    "register": 4,
+    "id": "Gs4",
+    "x": 641.25,
+    "status": "off",
+    "timestamp": 36395.5449999994
+  },
+  {
+    "names": [
+      "Ds",
+      "Eb"
+    ],
+    "color": "black",
+    "index": 63,
+    "register": 4,
+    "id": "Ds4",
+    "x": 570.666666,
+    "status": "off",
+    "timestamp": 36406.630000001314
+  },
+  {
+    "names": [
+      "Gs",
+      "Ab"
+    ],
+    "color": "black",
+    "index": 44,
+    "register": 2,
+    "id": "Gs2",
+    "x": 319.25,
+    "status": "off",
+    "timestamp": 36410.609999999
+  }
+]
