@@ -1,0 +1,1352 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sim",
+				"simulate"
+			],
+			[
+				"end",
+				"endRecording"
+			],
+			[
+				"svg",
+				"svgPiano"
+			],
+			[
+				"import",
+				"importedNotes"
+			],
+			[
+				"notes",
+				"notespace"
+			],
+			[
+				"y",
+				"yScale"
+			],
+			[
+				"start",
+				"startRecording"
+			],
+			[
+				"whit",
+				"white_keys"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"down",
+				"downloadFile"
+			],
+			[
+				"use_",
+				"use_flats"
+			],
+			[
+				"bla",
+				"blackKeyOffsets"
+			],
+			[
+				"by",
+				"byStep"
+			],
+			[
+				"boards",
+				"boardsByStep"
+			],
+			[
+				"arr",
+				"arraysEqual"
+			],
+			[
+				"ini",
+				"initializeArray"
+			],
+			[
+				"axi",
+				"axis_opts"
+			],
+			[
+				"res",
+				"resizeFunction"
+			],
+			[
+				"chart",
+				"chartCandidates"
+			],
+			[
+				"can",
+				"candidate"
+			],
+			[
+				"ex",
+				"externals"
+			],
+			[
+				"expo",
+				"exports"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"squa",
+				"squareSize"
+			],
+			[
+				"rule",
+				"ruleNumber"
+			],
+			[
+				"nex",
+				"nextRow"
+			],
+			[
+				"fir",
+				"firstRow"
+			],
+			[
+				"te",
+				"textScale"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"parent",
+				"parentContainer"
+			],
+			[
+				"in",
+				"initialize"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"dra",
+				"dragHandleRight"
+			],
+			[
+				"org",
+				"original_width"
+			],
+			[
+				"su",
+				"superContainer"
+			],
+			[
+				"orig",
+				"original_width"
+			],
+			[
+				"or",
+				"original_width"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"dr",
+				"dragstart"
+			],
+			[
+				"drag",
+				"dragging"
+			],
+			[
+				"sid",
+				"sidebar"
+			],
+			[
+				"no",
+				"noselect"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"last",
+				"lastname"
+			],
+			[
+				"cand",
+				"candidate"
+			],
+			[
+				"pres",
+				"presidents"
+			],
+			[
+				"cook",
+				"cookie"
+			],
+			[
+				"not_",
+				"not_fla"
+			],
+			[
+				"av",
+				"availableIndices"
+			],
+			[
+				"prop",
+				"properties"
+			],
+			[
+				"pro",
+				"property"
+			],
+			[
+				"pr",
+				"properties"
+			],
+			[
+				"winn",
+				"winningSets"
+			],
+			[
+				"move",
+				"moveFirstAvailable"
+			],
+			[
+				"isE",
+				"isEvenNext"
+			],
+			[
+				"isO",
+				"isOddB"
+			],
+			[
+				"isOd",
+				"isOddA"
+			],
+			[
+				"quest",
+				"questionNo"
+			],
+			[
+				"appe",
+				"appendFile"
+			],
+			[
+				"count",
+				"counter_A"
+			],
+			[
+				"FA",
+				"FACTOR_A"
+			],
+			[
+				"cou",
+				"counter_A"
+			],
+			[
+				"Proj",
+				"ProjectEuler"
+			],
+			[
+				"sto",
+				"stories"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"DEF",
+				"DEFAULT_MARGIN"
+			],
+			[
+				"stat",
+				"states"
+			],
+			[
+				"lineN",
+				"lineNextNext"
+			],
+			[
+				"docu",
+				"documentList"
+			],
+			[
+				"docum",
+				"documentList"
+			],
+			[
+				"doc",
+				"documentList"
+			],
+			[
+				"form",
+				"formList"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"coun",
+				"countCorrect"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tota",
+				"countTotal"
+			],
+			[
+				"click",
+				"clickable"
+			],
+			[
+				"bas",
+				"baseColor"
+			],
+			[
+				"make",
+				"makeClock"
+			],
+			[
+				"max",
+				"max_width_short"
+			],
+			[
+				"leg",
+				"legendContainer"
+			],
+			[
+				"bord",
+				"borderStyles"
+			],
+			[
+				"pl",
+				"plate_width"
+			],
+			[
+				"border",
+				"borderColors"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"il",
+				"inline-block"
+			],
+			[
+				"gr",
+				"group"
+			],
+			[
+				"dir",
+				"directories"
+			],
+			[
+				"runrun",
+				"runrunbaby"
+			],
+			[
+				"curr",
+				"currentSongTime"
+			],
+			[
+				"tim",
+				"timestamps"
+			],
+			[
+				"my",
+				"myPercent"
+			],
+			[
+				"rank",
+				"rankings"
+			],
+			[
+				"myO",
+				"myOpponentRank"
+			],
+			[
+				"chara",
+				"characterIndex"
+			],
+			[
+				"bacl",
+				"background-color\tproperty"
+			],
+			[
+				"cel",
+				"cellspacing\tAttr"
+			],
+			[
+				"cha",
+				"characterIndex"
+			],
+			[
+				"perc",
+				"myPercent"
+			],
+			[
+				"per",
+				"percentB"
+			],
+			[
+				"win",
+				"winA"
+			],
+			[
+				"ma",
+				"matchups"
+			],
+			[
+				"mat",
+				"matchups"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"charac",
+				"characterIndex"
+			],
+			[
+				"com",
+				"comment"
+			],
+			[
+				"comm",
+				"comments"
+			],
+			[
+				"char",
+				"characters"
+			],
+			[
+				"match",
+				"matchupIndex"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"style",
+				"styleSelect"
+			],
+			[
+				"ind",
+				"characterNameIndex"
+			],
+			[
+				"matc",
+				"matchups"
+			],
+			[
+				"k",
+				"KEYS"
+			],
+			[
+				"ch",
+				"characterIndex"
+			],
+			[
+				"ap",
+				"applyRank"
+			],
+			[
+				"ra",
+				"ranking"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"comp",
+				"compareArrays"
+			],
+			[
+				"wri",
+				"writeRankings"
+			],
+			[
+				"wr",
+				"writeRankings"
+			],
+			[
+				"sub",
+				"submission"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"q",
+				"querySelectorAll"
+			],
+			[
+				"survey_q",
+				"survey_question_subcategory"
+			],
+			[
+				"co",
+				"coefficients"
+			],
+			[
+				"pa",
+				"page_count"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 2138,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/pianoRoll.js",
+			"settings":
+			{
+				"buffer_size": 1878,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/replay.js",
+			"settings":
+			{
+				"buffer_size": 2187,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "samples/chopin.json",
+			"settings":
+			{
+				"buffer_size": 18130,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/keys.js",
+			"settings":
+			{
+				"buffer_size": 1105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/piano.js",
+			"settings":
+			{
+				"buffer_size": 1504,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/midi.js",
+			"settings":
+			{
+				"buffer_size": 2110,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/styles/richie.scss",
+			"settings":
+			{
+				"buffer_size": 1288,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1616,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "# README"
+			}
+		},
+		{
+			"file": "src/html/richie.html",
+			"settings":
+			{
+				"buffer_size": 547,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"spell",
+				"Google Spell Check"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"valid",
+				"JsValidate"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html\t",
+				"HTMLPrettify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"JSON",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"shell",
+				"ShellCommand"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 137.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/wilson/Dropbox/Private/scribe/Richie/samples/chopin.json",
+		"/Users/wilson/Dropbox/Private/scribe/Richie/interface.html",
+		"/Users/wilson/Dropbox/Private/scribe/Richie/src/js/visualize.js",
+		"/Users/wilson/Dropbox/Private/scribe/Richie/index.js",
+		"/Users/wilson/Dropbox/Private/scribe/Richie/src/js/notespace.js",
+		"/Users/wilson/Dropbox/Private/scribe/Richie/src/html/richie.html",
+		"/Users/wilson/Dropbox/Private/scribe/Richie/src/js/keys.js",
+		"/Users/wilson/Dropbox/Private/scribe/Richie/scripts/parseJSON.js",
+		"/Users/wilson/Dropbox/Private/scribe/Richie/scripts/parsed.json",
+		"/Users/wilson/Dropbox/Private/scribe/Richie/lib/keys.js",
+		"/Users/wilson/Dropbox/Private/scribe/Richie/css/richie.scss.html",
+		"/Users/wilson/Dropbox/Private/scribe/Richie/.gitignore",
+		"/Users/wilson/Dropbox/Private/scribe/Richie/src/webmidi.js",
+		"/Users/wilson/Dropbox/Private/scribe/tic-tac-toe/results/boardRoutes.json",
+		"/Users/wilson/Dropbox/Private/scribe/tic-tac-toe/lib/Matrix/index.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/gulf_temperatures_2019/code/cdl/avhrr_19820101.cdl",
+		"/Users/wilson/Dropbox/Private/time/apps/development/gulf_temperatures_2019/code/avhrr.schema.txt",
+		"/Users/wilson/Dropbox/Private/time/apps/archived/tk_state_man/debug.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/new_swing_states/code/results/1992_states.csv",
+		"/Users/wilson/Dropbox/Private/time/apps/longterm/new_swing_states/code/results/2008_states.csv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/elastic-svg/index.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/d3charts/index.js",
+		"/Users/wilson/Dropbox/Private/time/tools/time-interactive/README.md",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/elastic-svg/README.md",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/d3charts/README.md",
+		"/Users/wilson/Dropbox/Private/repos/bundle-module/lib/generateConfig.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/source/candidates.tsv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/source/presidents.tsv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/0-candidateWikiDataIDs.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/1-candidateAges.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/2-presidential_gaps.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/README.md",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/data/presidentsDOBs.json",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/source/presidentsAll.tsv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/data/presidents.tsv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/data/candidates.tsv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/package.json",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/d3charts/demos/line.html",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/d3charts/demos/bars.html",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/bundle-module/bundle.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/bundle-module/lib/generateConfig.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/d3charts/dist/d3charts.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/d3charts/dist/d3charts.min.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/elastic-svg/examples/demo.html",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/elastic-svg/examples/iframes/elasticA.html",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/elastic-svg/examples/iframes/elasticB.html",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/elastic-svg/examples/src/generateCA.html",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/elastic-svg/examples/src/generateCellularAutomata.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/elastic-svg/examples/iframes/static.html",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/elastic-svg/examples/iframes/svgMarkup.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/elastic-svg/examples/iframes/generateCellularAutomata.html",
+		"/Users/wilson/Dropbox/Private/repos/pretty-resize/demo.html",
+		"/Users/wilson/Dropbox/Private/gentoos_labyrinth/Chapters/01/00-prologue.md",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/lib/bundle-module-for-browser/lib/generateConfig.js",
+		"/Users/wilson/Dropbox/Private/time/apps/archived/house_simulations/debug.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/.gitignore",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/data/candidates_recent.csv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/data/generations_recent.csv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/data/candidates_once.json",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/data/generations.csv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/data/candidates.json",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/candidateWikiIds.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/candidateAges.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/data/presidents.json",
+		"/Users/wilson/Dropbox/Private/time/apps/development/passing_the_torch/code/cache/www.wikidata.org/w/api.php?action=wbsearchentities&search=Andrew%20Johnson&language=en&limit=20&continue=&format=json&uselang=en&type=item",
+		"/Users/wilson/Dropbox/Private/time/tools/time-interactive/prototype/package.json",
+		"/Users/wilson/Dropbox/Private/time/apps/development/tk_state_man/code/geocode/scan.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/tk_state_man/src/styles.scss",
+		"/Users/wilson/Dropbox/Private/time/apps/development/tk_state_man/data/TK_Man_Woman.csv",
+		"/Users/wilson/Dropbox/Private/scribe/tic-tac-toe/combos.js",
+		"/Users/wilson/Dropbox/Private/scribe/tic-tac-toe/index.js",
+		"/Users/wilson/Dropbox/Private/euler/ProjectEuler.js",
+		"/Users/wilson/Dropbox/Private/euler/0002/index.js",
+		"/Users/wilson/Dropbox/Private/euler/0001/index.js",
+		"/Users/wilson/Dropbox/Private/my_stuff/euler/ProjectEuler.js",
+		"/Users/wilson/Dropbox/Private/my_stuff/euler/0001/index.js",
+		"/Users/wilson/Dropbox/Private/my_stuff/euler/template.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/tk_state_man/data/tk_person.csv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/test.txt",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/risk.txt",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/documents/2036.json",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/elastic/delete.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/documents/4317.json",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/2-getTextFiles.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/results/s1_downloaded.csv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/results/s1_unique.csv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/debug.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/data/candidates.csv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/src/styles.scss",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/src/base.html",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/lib/tools/legend.scss",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/src/bio.ejs",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/src/time-interactive.scss",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/lib/tools/clock/index.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/src/groups.ejs",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/src/results.ejs",
+		"/Users/wilson/Dropbox/Private/piano/recordSession.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/lib/tools/makeLegend.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/politics/name_the_2020_candidates/data/candidates.csv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/politics/name_the_2020_candidates/src/groups.ejs",
+		"/Users/wilson/Dropbox/Private/time/apps/development/politics/name_the_2020_candidates/debug.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/politics/name_the_2020_candidates/src/base.html",
+		"/Users/wilson/Dropbox/Private/time/apps/development/politics/name_the_2020_candidates/src/styles.scss",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/README.md",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/package.json",
+		"/Users/wilson/Dropbox/Private/time/apps/development/politics/.gitignore",
+		"/Users/wilson/Dropbox/Private/time/apps/archived/baby_names_by_decade/lib/tools/language.js",
+		"/Users/wilson/Dropbox/Private/time/apps/archived/baby_names_by_decade/lib/tools/inputs.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/name_the_2020_candidates/data/candidates.tsv",
+		"/Users/wilson/Desktop/fix_interactives/commands.md",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/package.json",
+		"/Users/wilson/Desktop/fix_interactives/fix.js",
+		"/Users/wilson/Desktop/interactives/2015/bond/bond.css",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/0-getIndex.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/2-getCompanies.js",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/master/full-index_2016_QTR1.json",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/results/s1s.tsv",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/cache/www.sec.gov/Archives/edgar/full-index/1995/QTR3/master.idx",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/master/full-index_1993_QTR4.json",
+		"/Users/wilson/Dropbox/Private/gentoos_labyrinth/characters.md",
+		"/Users/wilson/Dropbox/Private/gentoos_labyrinth/Clips/Princess Marinia.md",
+		"/Users/wilson/Dropbox/Private/gentoos_labyrinth/Clips/alphabet.md",
+		"/Users/wilson/Dropbox/Private/gentoos_labyrinth/Clips/height_merchant.md",
+		"/Users/wilson/Dropbox/Private/gentoos_labyrinth/Clips/books.md",
+		"/Users/wilson/Dropbox/Private/time/apps/development/sec_filing_scan/code/master/full-index_1999_QTR2.json",
+		"/Users/wilson/Desktop/runrunrungame/js/src/p5.sound.js",
+		"/Users/wilson/Desktop/runrunrungame/js/src/p5.dom.js",
+		"/Users/wilson/Desktop/runrunrungame/data/timestamps.json"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"notespace",
+			"startR",
+			"\\.\\d+}",
+			", time: ",
+			", velocity: ",
+			", value: ",
+			"midi.js:90.*?\\n",
+			"midi.js:80.*?\\n",
+			"midi.js:56 {command: ",
+			"\\.\\d+}",
+			", time: ",
+			", velocity: ",
+			", value: ",
+			"{command: ",
+			"midi.js:56 ",
+			"downl",
+			"notes",
+			"fill",
+			"d3.",
+			"MARGIN",
+			"d3.",
+			"height",
+			"width",
+			"scale",
+			"yscal",
+			"xscal",
+			"opts",
+			"var ",
+			"pianoRoll",
+			"session",
+			"function",
+			"var ",
+			"endRecording",
+			"function(d) {",
+			"function",
+			"var ",
+			"KEYS",
+			"offset",
+			"margin",
+			"index",
+			"notespace",
+			"1200",
+			"notes",
+			"\"start\"",
+			"88",
+			"start",
+			"Vietnam",
+			"svg",
+			"start",
+			".x",
+			"”",
+			"“",
+			"\"note\":",
+			"\"color:",
+			"}",
+			"\"\"",
+			"\"color: \"\"",
+			"\\n\"",
+			" x=\"[0-9\\.]+\" y=\"0\" width=\"\\d+\" height=\"80\"/>",
+			" x=\"\\d+\" y=\"\\d+\" width=\"23\" height=\"120\"/>",
+			"\t\t\t<rect class=\"key black ",
+			"\t\t\t<rect class=\"key white ",
+			"<rect style=\"fill:black;stroke:black\"",
+			"<rect style=\"fill:white;stroke:black\" ",
+			"    "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"\\t",
+			"",
+			"\\t",
+			"",
+			"importedNotes",
+			"",
+			"let ",
+			"d => {",
+			"let ",
+			".offset",
+			"\"",
+			"\"names\":",
+			"\"color\":",
+			"},",
+			"\"",
+			"\"color: \"black\"",
+			"\", \"color: \"\" }\\n\\t{ \"note\": \"",
+			"",
+			"\"",
+			"<rect class=\"key black\"",
+			"<rect class=\"key white\" ",
+			"\\t"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1114,
+								1114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 530.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/js/pianoRoll.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1878,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/js/replay.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								869,
+								869
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "samples/chopin.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/js/keys.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								10
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/js/piano.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								175
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/js/midi.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1970,
+								1970
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/styles/richie.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1219,
+								1219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1085,
+								1085
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# README",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/html/richie.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								196,
+								196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 109.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Richie.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1108.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

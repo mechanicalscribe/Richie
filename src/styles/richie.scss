@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Literata:400,500,600,700&display=swap');
+
+body {
+	font-family: 'Literata', serif;	
+	text-align: center;
+	font-size: 16px;
+}
+
+.banner {
+	font-size: 40px;
+	padding: 15px 0;
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 15px;
+}
+
+.key {
+	stroke: black;
+}
+
+.white {
+	fill: white;
+}
+
+.black {
+	fill: black;
+}
+
+#controls {
+	max-width: 1200px;
+	margin: 5px auto;
+	position: relative;
+}
+
+button {
+	font-size: 20px;
+	cursor: pointer;
+	outline: none;
+	background-color: white;
+	border: 1px solid black;
+	width: 100px;
+	padding: 5px 10px 4px 10px;
+	line-height: 22px;
+	border-radius: 3px;
+	vertical-align: top;
+}
+
+button.selected {
+	background-color: #FFFFEE;
+}
+
+#control_panel > a {
+	display: none;
+}
+
+#admin {
+	text-align: left;
+}
+
+.label {
+	font-size: 12px;
+	fill: black;
+	text-anchor: middle;
+	font-family: "Arial";
+}
+
+#studio {
+	position: relative;
+	width: 1260px;
+	margin: 10px auto;
+}
+
+#piano_88_keys {
+	position: relative;
+}
+
+#notespace {
+	position: relative;
+}
+
+#notespace svg {
+	background-color: #EEE;	
+}
+
+.domain {
+	display: none;
+}
+
+#x_axis .tick line {
+	stroke: white;
+	stroke-width: 2px;
+}
+
+#y_axis .tick line {
+	stroke: #606060;
+	stroke-width: 1px;
+}
+
+.tone {
+	stroke: black;
+}
+
+#play_line {
+	stroke-width: 2px;
+	stroke: black;
+}
