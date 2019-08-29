@@ -1,10 +1,6 @@
 // Accept incoming MIDI signals and handle them
 
-import { NOTES, KEYS } from './keys.js'
-
-let data = [];
-let notes = [];
-let pending = {};
+import { NOTES, KEYS } from './keys.js';
 
 function allowMIDIs() {
 	console.log("Requesting MIDI Acess");
@@ -25,18 +21,20 @@ function onMIDISuccess(midiAccess) {
 	}
 
 	for (var input of midiAccess.inputs.values()) {
+		console.log("Detected MIDI input");
 		console.log(input)
 		input.onmidimessage = getMIDIMessage;
 	}
 }	
 
 function onMIDIFailure(midiAccess) {
+	console.log("Couldn't connect to MIDI");
 	console.log(midiAccess);
 }	
 
 function getMIDIMessage(message) {
-	var command = message.data[0];
-	var note = message.data[1];
+	var command = message.data[0]; // MIDI command. See README
+	var note = message.data[1]; // MIDI note value, from 21 to 108
 	var velocity = (message.data.length > 2) ? message.data[2] : 0; // a velocity value might not be included with a noteOff command
 	var timestamp = message.timeStamp;
 
@@ -47,7 +45,7 @@ function getMIDIMessage(message) {
 
 	let datum = {
 		command: command,
-		value: note,
+		value: value,
 		velocity: message.data[2],
 		time: timestamp
 	};
@@ -58,41 +56,42 @@ function getMIDIMessage(message) {
 	switch (command) {
 		case 144: // noteOn
 			if (velocity > 0) {
-				noteOn(note, timestamp, velocity);
+				noteOn(value, timestamp, velocity);
 			} else {
-				noteOff(note, timestamp);
+				noteOff(value, timestamp);
 			}
 			break;
 		case 128: // noteOff
-			noteOff(note, timestamp);
+			noteOff(value, timestamp);
 			break;
+		case 64: // pedal
+			pedalPressed(value, timestamp, velocity);
 		// we could easily expand this switch statement to cover other types of commands such as controllers or sysex
 	}
 }
 
-function noteOn(value, timestamp, velocity) {
+function noteOn (value, timestamp, velocity) {
 	var note = Object.assign({}, KEYS[value - 21]);
 	note.status = "on";
-	note.start = timestamp;
+	note.timestamp = timestamp;
 	note.velocity = velocity;
-	//data.push(note);
 
 	console.log(note.id, "on");
 
 }
 
-function noteOff(value, timestamp, velocity) {
+function noteOff (value, timestamp, velocity) {
 	var note = Object.assign({}, KEYS[value - 21]);
 	note.status = "off";
 	note.timestamp = timestamp;
-	//data.push(note);
 
 	console.log(note.id, "off");
 }
 
+function pedalPressed (value, timestamp, velocity) {
+	console.log(value, timestamp, velocity);
+}
+
 export default {
-	allowMIDIs: allowMIDIs,
-	data: data,
-	notes: notes,
-	pending: pending
+	allowMIDIs: allowMIDIs
 }

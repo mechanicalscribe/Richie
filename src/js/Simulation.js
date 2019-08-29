@@ -8,56 +8,51 @@ const SLOW_FACTOR = 1;
 
 let elapsedTime = 0;
 
-const Simulation = function(roll, strikes, autoplay) {
-	if (typeof autoplay === "undefined") {
-		autoplay = true;
-	}
-
+const Simulation = function(roll, strikes) {
 	this.roll = roll;
 	this.strikes = strikes;
-	this.autoplay = autoplay;
 	this.count = 0;
 	this.initialized = false;
-
-	this.roll.reset();
-
 	this.initialize();
-	
-	if (autoplay) {		
-		roll.startRecording();
-		strikes.forEach(strike => {
-			setTimeout(function() {
-				if (!roll.clock) {
-					return;
-				}
-				roll.addStrike(strike);
-				count += 1;
-				if (count == strikes.length) {
-					clearTimeout(timer);
-					console.log("Replay is over.");
-				}
-			}, strike.timestamp);
-		});		
-	}
 }
 
 Simulation.prototype.initialize = function() {
+	this.roll.reset();
 	let offset = this.strikes[0].timestamp * SLOW_FACTOR;
 
 	this.strikes.forEach((strike, s) => {
 		strike.timestamp = strike.timestamp * SLOW_FACTOR - offset;
 	});
-
-	this.initialized = true;
 }
 
-Simulation.prototype.stepInterval = function(interval) {
+Simulation.prototype.replay = function() {
+	let that = this;
+	this.roll.startRecording();
+	this.strikes.forEach(strike => {
+		let timer = setTimeout(function() {
+			if (!that.roll.clock) {
+				return;
+			}
+			that.roll.addStrike(strike);
+			that.count += 1;
+			if (that.count == that.strikes.length) {
+				clearTimeout(timer);
+				that.roll.endRecording();
+				console.log("Replay is over.");
+				console.log(that.roll.notes);
+			}
+		}, strike.timestamp);
+	});		
+}
+
+Simulation.prototype.step = function(interval) {
 	if (!this.roll.startTime) {
 		this.roll.startTime = 0;
 	}
 
 	if (!this.initialized) {
 		this.initialize();
+		this.initialized = true;
 	}
 
 	elapsedTime += interval;
@@ -73,12 +68,12 @@ Simulation.prototype.stepInterval = function(interval) {
 }
 
 
-Simulation.prototype.loadAll() {
+Simulation.prototype.loadAll = function() {
 	this.roll.reset();
 
 	let spanTime = this.strikes.slice(-1)[0].timestamp - this.strikes[0].timestamp;
-	console.log(spanTime);
-	this.stepInterval(spanTime);
+	this.step(spanTime + 100);
+	this.roll.endRecording();
 }
 
 export default Simulation;

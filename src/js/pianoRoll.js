@@ -14,12 +14,22 @@ const TONE_WIDTH = 10;
 const WIDTH = 1200;
 const HEIGHT = 600;
 
-const PianoRoll = function(selector, opts) {
+const PianoRoll = function(selector, opts, keyboard) {
+	let that = this;
 	opts = opts || {};
 
 	const TIMESPAN = opts.timespan * 1000 || 16000;
-	const colorScale = opts.colorScale ? colorScales["interpolate" + opts.colorScale] : colorScales.interpolateYlGnBu;
-	let dynamicRange = opts.dynamicRange || [30, 80, 50];
+	const colorPalette = opts.colorPalette ? colorScales["interpolate" + opts.colorPalette] : colorScales.interpolateYlGnBu;
+	let dynamicRange = opts.dynamicRange || [30, 50, 70];
+	let colorValues = [ colorPalette(0.3), colorPalette(0.65), colorPalette(1) ];
+
+	if (opts.colorReverse) {
+		colorValues = [ colorPalette(0.7), colorPalette(0.35), colorPalette(0) ];
+	}
+
+	const colorScale = scaleLinear()
+		.domain(dynamicRange)
+		.range(colorValues);
 
 	const MARGIN = {
 		left: 40,
@@ -32,6 +42,8 @@ const PianoRoll = function(selector, opts) {
 	this.pending = {};
 	this.startTime = null;
 	this.clock = null;
+	this.currentTime = 0;
+	this.keyboard = keyboard !== "undefined" ? keyboard : null;
 
 	select(selector).style("left", -MARGIN.left + "px");
 
@@ -74,6 +86,18 @@ const PianoRoll = function(selector, opts) {
 		.attr("height", HEIGHT + MARGIN.top + MARGIN.bottom)
 		.style("fill", "ffefd5")
 		.style("fill-opacity", 0.25);
+		/*
+		.on("click", function() {
+			if (that.keyboard) {
+				that.keyboard.liftAll();
+			}
+			that.endRecording();
+
+			let y = event.layerY - MARGIN.top;
+			let t = that.yScale.invert(y);
+			that.playLine.attr("transform", `translate(0,${ that.yScale(t) })`)
+		})
+		*/
 
 	svg.append("g")
 		.attr("id", "x_axis")
@@ -107,45 +131,26 @@ const PianoRoll = function(selector, opts) {
 	this.dynamicRange = dynamicRange;
 }
 
-PianoRoll.prototype.paintNotes = function() {
-	let currentTime = new Date().getTime() - this.startTime;
-
-	this.rollNotes.selectAll(".note")
-		.data(this.notes)
-		.enter()
-		.append("rect")
-		.attr("class", "note");
-
-	this.rollNotes.selectAll(".note")
-		.attr("x", d => this.xScale(d.x) - TONE_WIDTH / 2 + (d.color === "white" ? 23 / 2 : 13 / 2))
-		.attr("y", d => this.yScale(d.startTime))
-		.attr("width", TONE_WIDTH)
-		.attr("height", d => this.yScale(d.endTime - d.startTime))
-		.attr("fill", d => this.colorScale((d.velocity - this.dynamicRange[0]) / this.dynamicRange[2]));
-
-	this.rollPending.selectAll(".note").attr("height", d => this.yScale(currentTime - d.startTime));
-}
-
-PianoRoll.prototype.addStrike = function(strikeData) {
+PianoRoll.prototype.addStrike = function(strikeData, dontPlay) {
 	let that = this;
-	if (this.startTime === null) {
-		this.startTime = new Date().getTime();
-		console.log("startTime is", this.startTime);
-
-		// start clock
-		this.clock = setInterval(function() {
-			that.paintNotes();
-		}, FRAME_RATE);		
+	if (this.startTime === null && !dontPlay) {
+		this.startRecording();
 	}
 
 	if (strikeData.status === "off") {
 		let note = this.pending[strikeData.id];
+
 		if (!note) {
 			console.log(`Hmmm, can't turn off ${ strikeData.id } since it's not pending.`);
 			return;
 		}
 
+		if (this.keyboard) {
+			this.keyboard.lift(note.id);
+		}
+
 		note.endTime = strikeData.timestamp;
+		note.duration = note.endTime - note.startTime;
 		note.status = "concluded";
 		this.notes.push(note);
 		delete this.pending[strikeData.id];
@@ -167,6 +172,13 @@ PianoRoll.prototype.addStrike = function(strikeData) {
 			console.log(`Weird, we already have a pending ${ strikeData.id }.`);
 			return;
 		}
+
+		let noteColor = this.colorScale(strikeData.velocity);
+
+		if (this.keyboard) {
+			this.keyboard.press(strikeData.id, noteColor);
+		}
+
 		strikeData.startTime = strikeData.timestamp;
 		this.pending[strikeData.id] = strikeData;
 		let pending = Object.values(this.pending);
@@ -176,22 +188,66 @@ PianoRoll.prototype.addStrike = function(strikeData) {
 
 		pendingNotes.enter().append("rect").attr("class", "note")
 			.attr("x", d => {
-				console.log("Adding", d);
 				return this.xScale(d.x) - TONE_WIDTH / 2 + (d.color === "white" ? 23 / 2 : 13 / 2)
 			})
 			.attr("y", d => this.yScale(d.startTime))
 			.attr("width", TONE_WIDTH )
 			.attr("height", 0)
-			.attr("fill", d => this.colorScale((d.velocity - this.dynamicRange[0]) / this.dynamicRange[2]));
+			.attr("fill", d => this.colorScale(d.velocity));
 
-		// console.log(`Added ${ strikeData.id } to pending at ${ strikeData.startTime }.`);
 		return;
 	}
+}
+
+PianoRoll.prototype.paintNotes = function() {
+	this.rollNotes.selectAll(".note")
+		.data(this.notes)
+		.enter()
+		.append("rect")
+		.attr("class", "note")
+		.on("click", function(d) {
+			console.log(d);
+		});
+
+	this.rollNotes.selectAll(".note")
+		.attr("x", d => this.xScale(d.x) - TONE_WIDTH / 2 + (d.color === "white" ? 23 / 2 : 13 / 2))
+		.attr("y", d => this.yScale(d.startTime))
+		.attr("width", TONE_WIDTH)
+		.attr("height", d => this.yScale(d.endTime - d.startTime))
+		.attr("fill", d => this.colorScale(d.velocity));
+
+	this.rollPending.selectAll(".note").attr("height", d => this.yScale(this.currentTime - d.startTime));
+
+	this.playLine.attr("transform", `translate(0,${ this.yScale(this.currentTime) })`)
+
+}
+
+PianoRoll.prototype.startRecording = function() {
+	// start clock
+	this.startTime = new Date().getTime();
+	let that = this;
+
+	this.clock = setInterval(function() {
+		that.currentTime = new Date().getTime() - that.startTime;
+		that.paintNotes();
+	}, FRAME_RATE);
 }
 
 PianoRoll.prototype.endRecording = function() {
 	clearTimeout(this.clock);
 	this.clock = null;
+	if (this.keyboard) {
+		this.keyboard.liftAll();
+	}
 }
 
-export { PianoRoll };
+PianoRoll.prototype.reset = function() {
+	this.endRecording();
+	this.svg.selectAll(".note").remove();
+	this.notes = [];
+	this.pending = {};
+	this.startTime = null;
+	this.currentTime = 0;
+}
+
+export default PianoRoll;

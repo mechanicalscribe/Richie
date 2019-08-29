@@ -131,6 +131,31 @@ const PianoKeyboard = function(selector, opts) {
 	this.labels = g_labels;
 }
 
+PianoKeyboard.prototype.press = function(key_id, color) {
+	let key = this.g.select("#note_" + key_id);
+	if (!key.node()) {
+		console.log(`Can't press ${key_id} since it doesn't exist.`);
+		return;
+	}
+
+	key.style("fill", color);
+}
+
+PianoKeyboard.prototype.lift = function(key_id) {
+	let key = this.g.select("#note_" + key_id);
+	if (!key.node()) {
+		console.log(`Can't lift ${key_id} since it doesn't exist.`);
+		return;
+	}
+
+	key.style("fill", d => d.color === "white" ? "#FFF" : "000");
+}
+
+
+PianoKeyboard.prototype.liftAll = function(key_id) {
+	this.g.selectAll(".key").style("fill", d => d.color === "white" ? "#FFF" : "000");
+}
+
 PianoKeyboard.prototype.play = function(key_id, duration, color, dontFade) {
 	let key = this.g.select("#note_" + key_id);
 	if (!key.node()) {

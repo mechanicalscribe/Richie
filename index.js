@@ -2,16 +2,14 @@ import { select, selectAll, event } from 'd3-selection';
 import { csvFormat } from 'd3-dsv';
 import { json } from 'd3-fetch';
 import MIDI from './src/js/midi.js';
-import PianoKeyboard from './src/js/pianoKeyboard.js';
-import { PianoRoll } from './src/js/pianoRoll.js';
+import PianoKeyboard from './src/js/PianoKeyboard.js';
+import PianoRoll from './src/js/PianoRoll.js';
 //import visualize from './src/js/visualize.js';
-import { replay, stepInterval } from './src/js/replay.js';
+import Simulation from './src/js/Simulation.js';
 
 import './src/styles/richie.scss';
 
 let MODE = "flats";
-
-let data = MIDI.data;
 
 // load HTML skeleton
 select("#richie").html(require("./src/html/richie.html"));
@@ -23,7 +21,11 @@ let keyboard = new PianoKeyboard("#piano_88_keys", {
 // keyboard.play("C4", 6000);
 // keyboard.play("Fs4", 5000, "#F00", true);
 
-let roll = new PianoRoll("#notespace", { timespan: 30 });
+let roll = new PianoRoll("#notespace", { 
+	timespan: 30,
+	colorPalette: "RdYlGn",
+	colorReverse: true
+}, keyboard);
 
 let testNote = {
 	note_id: "Gs4",
@@ -32,10 +34,14 @@ let testNote = {
 	velocity: 65
 };
 
-// roll.placeNote(testNote);
-
+let isLoaded = false;
+let simulation;
 // controls
 selectAll("button").on("click", function() {
+	selectAll("button").classed("selected", false);
+	select(this).classed("selected", true);
+
+
 	if (this.id === "start") {
 		MIDI.allowMIDIs();
 		return;
@@ -47,29 +53,36 @@ selectAll("button").on("click", function() {
 	}
 
 	if (this.id === "step") {
-		stepInterval(roll, 100);
-		return;
+		if (!isLoaded) {
+			json("./samples/chopin.json").then(function(note_strikes) {
+				isLoaded = true;
+				simulation = new Simulation(roll, note_strikes, false);
+				simulation.step(100);
+			});
+		} else {
+			simulation.step(100);
+		}
 	}
 
 	if (this.id === "save") {
-		console.log(data);
-		downloadCSV(data);
+		console.log(roll.notes);
+		// downloadCSV(roll.notes);
+		downloadJSON(roll.notes);
 		return;
 	}
 
 	if (this.id === "load") {
-		json("./scripts/parsed.json").then(function(note_file) {
-		// json("./samples/chopin.json").then(function(json) {
-			console.log(note_file);
-			simulate.simulation(notespace, note_file);
+		json("./samples/chopin.json").then(function(note_strikes) {
+			simulation = new Simulation(roll, note_strikes, false);
+			simulation.loadAll();
 		});
 		return;
 	}
 
 	if (this.id === "replay") {
 		json("./samples/chopin.json").then(function(note_strikes) {
-		// json("./samples/chopin.json").then(function(json) {
-			replay(roll, note_strikes);
+			simulation = new Simulation(roll, note_strikes);
+			simulation.replay();
 		});
 		return;
 	}
@@ -79,8 +92,6 @@ selectAll("button").on("click", function() {
 		return;
 	}
 
-	selectAll("button").classed("selected", false);
-	select(this).classed("selected", true);
 	if (this.id === "use_flats") {
 		MODE = "flats";
 	} else {
@@ -89,7 +100,7 @@ selectAll("button").on("click", function() {
 });
 
 function downloadJSON(dataObj) {
-	var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(json));
+	var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(dataObj, null, 2));
 	var anchor = document.getElementById('save_anchor');
 	anchor.setAttribute("href", dataStr );
 	anchor.setAttribute("download", "score.json");
