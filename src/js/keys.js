@@ -1,3 +1,5 @@
+// data for the 88 keys on the piano
+
 const NOTES = [
 	{ "names": "A Gx Bbb", "color": "white" },
 	{ "names": "As Bb", "color": "black" },
@@ -25,19 +27,27 @@ const KEYS = [];
 let posW = -23;
 let posB = 0;
 
-// build keyboard
+// build keyboard, agnostic of whether vertical or horizontal. `note.d` is the distance from the start
 for (let c = 0; c < 88; c += 1) {
 	let note = Object.assign({}, NOTES[c % 12]);
-	note.index = c + 21;	
+	note.code = c + 21; // MIDI starts at 21 for bottom A
 	note.names = note.names.split(/ /g);
 	note.register = Math.floor((c - 3) / 12) + 1;
 	note.id = note.names[0] + note.register;
+
 	if (note.color === "white") {
 		posW += 23;
 		note.x = posW;
+		note.y = 0;
+		note.width = 23; // width on a horizontal keyboard
+		note.height = 120;
 	} else {
 		note.x = posW + BLACK_KEY_OFFSETS[note.names[0]];
+		note.y = 0;
+		note.width = 13; // width on a horizontal keyboard
+		note.height = 80;
 	}
+
 	KEYS.push(note);
 }
 

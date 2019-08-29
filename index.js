@@ -2,9 +2,10 @@ import { select, selectAll, event } from 'd3-selection';
 import { csvFormat } from 'd3-dsv';
 import { json } from 'd3-fetch';
 import MIDI from './src/js/midi.js';
-import pianoKeys from './src/js/piano.js';
-import pianoRoll from './src/js/pianoRoll.js';
-import replay from './src/js/replay.js';
+import PianoKeyboard from './src/js/pianoKeyboard.js';
+import { PianoRoll } from './src/js/pianoRoll.js';
+//import visualize from './src/js/visualize.js';
+import { replay, stepInterval } from './src/js/replay.js';
 
 import './src/styles/richie.scss';
 
@@ -12,7 +13,26 @@ let MODE = "flats";
 
 let data = MIDI.data;
 
+// load HTML skeleton
 select("#richie").html(require("./src/html/richie.html"));
+
+let keyboard = new PianoKeyboard("#piano_88_keys", {
+	labels: "C"
+});
+
+// keyboard.play("C4", 6000);
+// keyboard.play("Fs4", 5000, "#F00", true);
+
+let roll = new PianoRoll("#notespace", { timespan: 30 });
+
+let testNote = {
+	note_id: "Gs4",
+	startTime: 5802.4,
+	endTime: 7979.2,
+	velocity: 65
+};
+
+// roll.placeNote(testNote);
 
 // controls
 selectAll("button").on("click", function() {
@@ -22,7 +42,12 @@ selectAll("button").on("click", function() {
 	}
 
 	if (this.id === "stop") {
-		endRecording();
+		roll.endRecording();
+		return;
+	}
+
+	if (this.id === "step") {
+		stepInterval(roll, 100);
 		return;
 	}
 
@@ -42,10 +67,9 @@ selectAll("button").on("click", function() {
 	}
 
 	if (this.id === "replay") {
-		json("./samples/chopin.json").then(function(note_file) {
+		json("./samples/chopin.json").then(function(note_strikes) {
 		// json("./samples/chopin.json").then(function(json) {
-			console.log(note_file);
-			replay(notespace, note_file);
+			replay(roll, note_strikes);
 		});
 		return;
 	}
@@ -80,8 +104,5 @@ function downloadCSV(dataObj) {
 	anchor.click();	
 }
 
-let keyboard = pianoKeys("#piano_88_keys")
-
-let notespace = pianoRoll("#notespace", { timespan: 30 });
 
 // let practice = simulate.simulation(notespace.session);

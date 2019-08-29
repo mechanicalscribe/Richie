@@ -67,18 +67,24 @@ button.selected {
 	position: relative;
 	width: 1260px;
 	margin: 10px auto;
+	text-align: left;
 }
 
 #piano_88_keys {
 	position: relative;
+	top: 1px;
+	left: 1px;
+	height: 122px;
+	width: 1450px;
 }
 
 #notespace {
+	display: inline-block;
 	position: relative;
 }
 
 #notespace svg {
-	background-color: #EEE;	
+
 }
 
 .domain {
@@ -86,7 +92,7 @@ button.selected {
 }
 
 #x_axis .tick line {
-	stroke: white;
+	stroke: brown;
 	stroke-width: 2px;
 }
 
@@ -95,11 +101,11 @@ button.selected {
 	stroke-width: 1px;
 }
 
-.tone {
+.note {
 	stroke: black;
 }
 
 #play_line {
-	stroke-width: 2px;
-	stroke: black;
+	stroke-width: 4px;
+	stroke: green;
 }

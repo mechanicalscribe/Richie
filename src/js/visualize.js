@@ -16,7 +16,7 @@ function endRecording() {
 	clearTimeout(CLOCK);
 }
 
-function visualization(pianoRoll, importedNotes) {
+function visualizeNotes(roll, importedNotes) {
 	let offset = importedNotes[0].timestamp;
 
 	let dynamicRange = extent(importedNotes, d => { return d.velocity; });
@@ -24,7 +24,6 @@ function visualization(pianoRoll, importedNotes) {
 	dynamicRange[1] = Math.max(80, dynamicRange[1]);
 	dynamicRange.push(dynamicRange[1] - dynamicRange[0]);
 
-	console.log(dynamicRange);
 	
 	importedNotes.forEach(note => {
 		note.start -= offset;
@@ -33,17 +32,17 @@ function visualization(pianoRoll, importedNotes) {
 
 	let TONE_WIDTH = 10;
 
-	let playLine = pianoRoll.g.append("line")
+	let playLine = roll.g.append("line")
 		.attr("id", "play_line")
-		.attr("x1", pianoRoll.xScale(0))
-		.attr("x2", pianoRoll.xScale(pianoRoll.WIDTH))
-		.attr("y1", pianoRoll.yScale(0))
-		.attr("y2", pianoRoll.yScale(0));
+		.attr("x1", roll.xScale(0))
+		.attr("x2", roll.xScale(roll.WIDTH))
+		.attr("y1", roll.yScale(0))
+		.attr("y2", roll.yScale(0));
 
-	pianoRoll.svg.on("click", function(d) {
-		let y = event.offsetY - pianoRoll.MARGIN.top;
-		let time = pianoRoll.yScale.invert(y);
-		if (time >= 0 && time <= pianoRoll.TIMESPAN) {
+	roll.svg.on("click", function(d) {
+		let y = event.offsetY - roll.MARGIN.top;
+		let time = roll.yScale.invert(y);
+		if (time >= 0 && time <= roll.TIMESPAN) {
 			playLine.attr("transform", `translate(0,${ y })`);
 			if (importedNotes) {
 				console.log(time);
@@ -57,19 +56,19 @@ function visualization(pianoRoll, importedNotes) {
 		}
 	});	
 
-	pianoRoll.g.selectAll(".tone")
+	roll.g.selectAll(".tone")
 		.data(importedNotes)
 		.enter()
 		.append("rect")
 		.attr("x", function(d) {
-			return pianoRoll.xScale(d.x) - TONE_WIDTH / 2 + (d.color === "white" ? 23 / 2 : 13 / 2);
+			return roll.xScale(d.x) - TONE_WIDTH / 2 + (d.color === "white" ? 23 / 2 : 13 / 2);
 		})
 		.attr("y", function(d) {
-			return pianoRoll.yScale(d.start);
+			return roll.yScale(d.start);
 		})
 		.attr("width", TONE_WIDTH)
 		.attr("height", function(d) {
-			return pianoRoll.yScale(d.duration);
+			return roll.yScale(d.duration);
 		})
 		.attr("class", "tone")
 		.attr("fill", function(d) {
@@ -89,7 +88,7 @@ function visualization(pianoRoll, importedNotes) {
 }
 
 export default {
-	simulation: simulation,
+	visualizeNotes: visualizeNotes,
 	startRecording: startRecording,
 	endRecording: endRecording
 }
